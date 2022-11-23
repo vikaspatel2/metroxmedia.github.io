@@ -1,8 +1,6 @@
 /**
-* Template Name: Techie - v4.9.1
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Author: MetroxMedia.com
+* License: MetroxMedia
 */
 
 /*--------------------------------------------------------------
@@ -39,7 +37,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  right: 20px;
   bottom: 15px;
   z-index: 996;
   background: #5846f9;
@@ -47,6 +45,11 @@ h6 {
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
+}
+
+.floating-wpp-button{
+  right: 0px;
+  bottom: 45px;
 }
 
 .back-to-top i {
