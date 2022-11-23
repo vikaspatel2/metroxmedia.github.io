@@ -1,8 +1,6 @@
 /**
-* Template Name: Techie - v4.9.1
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Author: Metroxmedia.com
+* License: MetroxMedia
 */
 
 /*--------------------------------------------------------------
@@ -1437,6 +1435,27 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 5px;
+}
+
+button.btn-contact {
+  border: none;
+  font-size: 16px;
+  padding: 15px 30px;
+  margin: 20px auto 0;
+  color: #fff;
+  background: #5846f9;
+  border-color: #5846f9;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
 
 .contact .php-email-form button[type=submit]:hover {
