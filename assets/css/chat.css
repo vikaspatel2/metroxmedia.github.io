@@ -161,13 +161,13 @@
     .chat-bar-collapsible {
         position: fixed;
         bottom: 0;
-        right: 70;
+        right: 50;
         width: 50%;
     }
     .collapsible {
         width: 100%;
         border: 0px;
-        border-top: 3px solid white;
+        border-top: 3px;
         border-radius: 10px 10px 20px 0px;
 
     }
