@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/chatbutton/floating-wpp.css">
+  <link rel="stylesheet" href="assets/css/chat.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -382,31 +383,77 @@
 
     </div>
 
+    !-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Hii I am Metrox!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+  
+        <div class="content">
+          
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+  
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+  
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="far fa-grin"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+  
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+  
+                        
+                    </div>
+                </div>
+  
+            </div>
+        </div>
+  
+    </div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="scripts/responses.js"></script>
+<script src="scripts/chat.js"></script>
+
 
   </footer><!-- End Footer -->
 
 
-  
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <div id="preloader"></div>
 
-    
-     <script src="assets/jquery.min.js"></script>  
- <script src="assets/chatbutton/floating-wpp.js"></script>  
- <script src="assets/chatbutton/script.js"></script>  
-  
-<div id="chatbutton-wa" data-phone="+918454862552" data-showpopup="true" data-headertitle="MetroxMedia ✅" data-popupmessage="Hey!👋
-This is MetroxMedia" data-placeholder="Type here" data-position="left" data-headercolor="#39847a" data-backgroundcolor="#e5ddd5" data-autoopentimeout="5" data-size="65px">
-    <div class="floating-wpp-button" style="width: 52px; height: 52px;">
-        <div class="floating-wpp-button-image">
-               
-                    <img src="whatsapp-logo-4.png" alt="">
+  <script src="assets/jquery.min.js"></script>  
+  <script src="assets/chatbutton/floating-wpp.js"></script>  
+  <script src="assets/chatbutton/script.js"></script>  
+   
+ <div id="chatbutton-wa" data-phone="+918454862552" data-showpopup="true" data-headertitle="MetroxMedia ✅" data-popupmessage="Hey!👋
+ This is MetroxMedia" data-placeholder="Type here" data-position="left" data-headercolor="#39847a" data-backgroundcolor="#e5ddd5" data-autoopentimeout="5" data-size="65px">
+     <div class="floating-wpp-button" style="width: 52px; height: 52px;">
+         <div class="floating-wpp-button-image">
                 
-    </div>
-    </div>
-</div>
-    
-    
+                     <img src="whatsapp-logo-4.png" alt="">
+                 
+     </div>
+     </div>
+ </div>
+  
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -421,7 +468,7 @@ This is MetroxMedia" data-placeholder="Type here" data-position="left" data-head
   <script src="assets/js/main.js"></script>
 
 
-
 </body>
+
 
 </html>
